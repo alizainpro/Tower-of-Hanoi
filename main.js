@@ -5,8 +5,8 @@
     
         const numberofmovesdisplay = document.getElementById("numberofmovesentry")
         var placebtn1 = document.getElementById("line1btn")
-        var placebtn2 = document.getElementById("line1btn")
-        var placebtn3 = document.getElementById("line1btn")
+        var placebtn2 = document.getElementById("line2btn")
+        var placebtn3 = document.getElementById("line3btn")
         const disc1 = document.getElementById("1")
         const disc2 = document.getElementById("2")
         const disc3 = document.getElementById("3")
