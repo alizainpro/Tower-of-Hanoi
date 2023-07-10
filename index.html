@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3 class="movesdisplay">Number of Moves : <span id="numberofmovesentry">9</span><button style="margin-left: 10px" onclick="window.location.reload()">New Game</button></h3>
+    <h3 style="display: none;position:absolute;left:20px;top:-30px;font-size: 50px;color:green" id="wontext">YOU WON!</h3>
+    <h3 style="display: none;position:absolute;left:20px;top:-30px;font-size: 50px;color:green" id="wontext">MADE BY ALI ZAIN <a href="https://facebook.com/darkoder">Facebook</a></h3>
+
+    <div class="maincon">
+        <div class="linecon">
+            <div class="line">
+
+            </div>
+            <div class="disccontainer"  id="line1container">
+                
+                <div class="disc" onclick="HoldDisc('3')" id="3" style="width: 10rem !important;" disccontainerlinename="line1" >
+                    
+                </div>
+                <div class="disc" onclick="HoldDisc('2')" id="2" style="width: 8rem !important;"  disccontainerlinename="line1">
+                    
+                </div>
+                <div class="disc" onclick="HoldDisc('1')" id="1" style="width: 6rem !important;"  disccontainerlinename="line1">
+                    
+                </div>
+            </div>
+            <button class="placebtn" id="line1btn" onclick="placeDisc('line1')">Place</button>
+        </div>
+        <div class="linecon">
+            <div class="line">
+                
+            </div>
+            <div class="disccontainer"  id="line2container" >
+
+            </div>
+            <button class="placebtn" id="line2btn" onclick="placeDisc('line2')">Place</button>
+
+        </div>
+        <div class="linecon" >
+            <div class="line">
+                
+            </div>
+            <div class="disccontainer" id="line3container">
+
+            </div>
+            <button class="placebtn" id="line3btn" onclick="placeDisc('line3')">Place</button>
+
+        </div>
+
+    </div>
+    <script src="main.js"></script>
+    
+</body>
+</html>
