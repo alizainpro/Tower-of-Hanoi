@@ -74,9 +74,6 @@
                                     console.log(number_of_moves)        
                                     selecteddisc.setAttribute("disccontainerlinename","line1")
                                     var currentIndex = itemsinline1.indexOf(selecteddisc.id)
-                                    var item_at_fst = itemsinline1[0]
-                                    var item_at_snd = itemsinline1[1]
-                                    var item_at_thr = itemsinline1[2]
                                     itemsinline1[currentIndex] = ""
                                     if(itemsinline1[2] == ''){
                                         itemsinline1[2] = selecteddisc.id
@@ -100,9 +97,6 @@
                                     console.log(number_of_moves)        
                                     selecteddisc.setAttribute("disccontainerlinename","line1")
                                     var currentIndex = itemsinline2.indexOf(selecteddisc.id)
-                                    var item_at_fst = itemsinline2[0]
-                                    var item_at_snd = itemsinline2[1]
-                                    var item_at_thr = itemsinline2[2]
                                     itemsinline2[currentIndex] = ""
                                     if(itemsinline1[2] == ''){
                                         itemsinline1[2] = selecteddisc.id
@@ -126,9 +120,6 @@
                                     console.log(number_of_moves)        
                                     selecteddisc.setAttribute("disccontainerlinename","line1")
                                     var currentIndex = itemsinline3.indexOf(selecteddisc.id)
-                                    var item_at_fst = itemsinline3[0]
-                                    var item_at_snd = itemsinline3[1]
-                                    var item_at_thr = itemsinline3[2]
                                     itemsinline3[currentIndex] = ""
                                     if(itemsinline1[2] == ''){
                                         itemsinline1[2] = selecteddisc.id
@@ -160,9 +151,6 @@
                                     console.log(number_of_moves)        
                                     selecteddisc.setAttribute("disccontainerlinename","line2")
                                     var currentIndex = itemsinline1.indexOf(selecteddisc.id)
-                                    var item_at_fst = itemsinline1[0]
-                                    var item_at_snd = itemsinline1[1]
-                                    var item_at_thr = itemsinline1[2]
                                     itemsinline1[currentIndex] = ""
                                     if(itemsinline2[2] == ''){
                                         itemsinline2[2] = selecteddisc.id
@@ -186,9 +174,6 @@
                                 console.log(number_of_moves)        
                                 selecteddisc.setAttribute("disccontainerlinename","line2")
                                 var currentIndex = itemsinline2.indexOf(selecteddisc.id)
-                                var item_at_fst = itemsinline2[0]
-                                var item_at_snd = itemsinline2[1]
-                                var item_at_thr = itemsinline2[2]
                                 itemsinline2[currentIndex] = ""
                                 if(itemsinline2[2] == ''){
                                     itemsinline2[2] = selecteddisc.id
@@ -213,9 +198,6 @@
                                 console.log(number_of_moves)        
                                 selecteddisc.setAttribute("disccontainerlinename","line2")
                                 var currentIndex = itemsinline3.indexOf(selecteddisc.id)
-                                var item_at_fst = itemsinline3[0]
-                                var item_at_snd = itemsinline3[1]
-                                var item_at_thr = itemsinline3[2]
                                 itemsinline3[currentIndex] = ""
                                 if(itemsinline2[2] == ''){
                                     itemsinline2[2] = selecteddisc.id
@@ -249,9 +231,6 @@
                                 console.log(number_of_moves)        
                                 selecteddisc.setAttribute("disccontainerlinename","line3")
                                 var currentIndex = itemsinline1.indexOf(selecteddisc.id)
-                                var item_at_fst = itemsinline1[0]
-                                var item_at_snd = itemsinline1[1]
-                                var item_at_thr = itemsinline1[2]
                                 itemsinline1[currentIndex] = ""
                                 if(itemsinline3[2] == ''){
                                     itemsinline3[2] = selecteddisc.id
@@ -276,9 +255,6 @@
                                 console.log(number_of_moves)        
                                 selecteddisc.setAttribute("disccontainerlinename","line3")
                                 var currentIndex = itemsinline2.indexOf(selecteddisc.id)
-                                var item_at_fst = itemsinline2[0]
-                                var item_at_snd = itemsinline2[1]
-                                var item_at_thr = itemsinline2[2]
                                 itemsinline2[currentIndex] = ""
                                 if(itemsinline3[2] == ''){
                                     itemsinline3[2] = selecteddisc.id
@@ -303,9 +279,6 @@
                                 console.log(number_of_moves)        
                                 selecteddisc.setAttribute("disccontainerlinename","line3")
                                 var currentIndex = itemsinline3.indexOf(selecteddisc.id)
-                                var item_at_fst = itemsinline3[0]
-                                var item_at_snd = itemsinline3[1]
-                                var item_at_thr = itemsinline3[2]
                                 itemsinline3[currentIndex] = ""
                                 if(itemsinline3[2] == ''){
                                     itemsinline3[2] = selecteddisc.id
@@ -320,10 +293,6 @@
                             }
                             else{
                                 alert("There is a disc above!")
-                            }
-                        }}
-                    }
-            }
-            }
+                            }}}}}}
             winCheck()
         }
