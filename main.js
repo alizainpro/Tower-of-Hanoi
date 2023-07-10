@@ -78,22 +78,15 @@
                                     var item_at_snd = itemsinline1[1]
                                     var item_at_thr = itemsinline1[2]
                                     itemsinline1[currentIndex] = ""
-                                    
-
-                                    // NEW ENDINGS
                                     if(itemsinline1[2] == ''){
                                         itemsinline1[2] = selecteddisc.id
-                                        console.warn("AT LINE 116")
                                     }
                                     else if(itemsinline1[1] == ''){
-                                        itemsinline1[1] = selecteddisc.id
-                                        console.warn("AT LINE 120")
+                                        itemsinline1[1] = selecteddisc.id  
                                     }
                                     else if(itemsinline1[0] == ''){
-                                        itemsinline1[0] = selecteddisc.id
-                                        console.warn("AT LINE 124")
-                                    }
-                                    
+                                        itemsinline1[0] = selecteddisc.id  
+                                    }  
                                 }
                             else{
                                 alert("There is a disc above!")
@@ -111,20 +104,15 @@
                                     var item_at_snd = itemsinline2[1]
                                     var item_at_thr = itemsinline2[2]
                                     itemsinline2[currentIndex] = ""
-                                    // NEW ENDINGS
                                     if(itemsinline1[2] == ''){
                                         itemsinline1[2] = selecteddisc.id
-                                        console.warn("AT LINE 116")
                                     }
                                     else if(itemsinline1[1] == ''){
                                         itemsinline1[1] = selecteddisc.id
-                                        console.warn("AT LINE 120")
                                     }
                                     else if(itemsinline1[0] == ''){
                                         itemsinline1[0] = selecteddisc.id
-                                        console.warn("AT LINE 124")
                                     }
-                                
                                 }
                             else{
                                 alert("There is a disc above!")
@@ -142,26 +130,21 @@
                                     var item_at_snd = itemsinline3[1]
                                     var item_at_thr = itemsinline3[2]
                                     itemsinline3[currentIndex] = ""
-                                    // NEW ENDINGS
                                     if(itemsinline1[2] == ''){
                                         itemsinline1[2] = selecteddisc.id
-                                        console.warn("AT LINE 116")
                                     }
                                     else if(itemsinline1[1] == ''){
                                         itemsinline1[1] = selecteddisc.id
-                                        console.warn("AT LINE 120")
                                     }
                                     else if(itemsinline1[0] == ''){
                                         itemsinline1[0] = selecteddisc.id
-                                        console.warn("AT LINE 124")
-                                    }
+                                        }
                                 }
                             }
                             else{
                                 alert("There is a disc above!")
                             }
                         }
-                        
                     }
                     if(line == 'line2'){ 
                         var selected_disc_container = selecteddisc.getAttribute("disccontainerlinename")
@@ -181,20 +164,15 @@
                                     var item_at_snd = itemsinline1[1]
                                     var item_at_thr = itemsinline1[2]
                                     itemsinline1[currentIndex] = ""
-                                    // NEW ENDINGS
                                     if(itemsinline2[2] == ''){
                                         itemsinline2[2] = selecteddisc.id
-                                        console.warn("AT LINE 116")
                                     }
                                     else if(itemsinline2[1] == ''){
                                         itemsinline2[1] = selecteddisc.id
-                                        console.warn("AT LINE 120")
                                     }
                                     else if(itemsinline2[0] == ''){
                                         itemsinline2[0] = selecteddisc.id
-                                        console.warn("AT LINE 124")
                                     }
-
                                 }
                                 else{
                                     alert("There is a disc above!")
@@ -214,15 +192,12 @@
                                 itemsinline2[currentIndex] = ""
                                 if(itemsinline2[2] == ''){
                                     itemsinline2[2] = selecteddisc.id
-                                    console.warn("AT LINE 116")
                                 }
                                 else if(itemsinline2[1] == ''){
                                     itemsinline2[1] = selecteddisc.id
-                                    console.warn("AT LINE 120")
                                 }
                                 else if(itemsinline2[0] == ''){
                                     itemsinline2[0] = selecteddisc.id
-                                    console.warn("AT LINE 124")
                                 }
 
                             }
@@ -244,15 +219,12 @@
                                 itemsinline3[currentIndex] = ""
                                 if(itemsinline2[2] == ''){
                                     itemsinline2[2] = selecteddisc.id
-                                    console.warn("AT LINE 116")
                                 }
                                 else if(itemsinline2[1] == ''){
                                     itemsinline2[1] = selecteddisc.id
-                                    console.warn("AT LINE 120")
                                 }
                                 else if(itemsinline2[0] == ''){
                                     itemsinline2[0] = selecteddisc.id
-                                    console.warn("AT LINE 124")
                                 }
 
                             }
@@ -283,15 +255,12 @@
                                 itemsinline1[currentIndex] = ""
                                 if(itemsinline3[2] == ''){
                                     itemsinline3[2] = selecteddisc.id
-                                    console.warn("AT LINE 116")
                                 }
                                 else if(itemsinline3[1] == ''){
                                     itemsinline3[1] = selecteddisc.id
-                                    console.warn("AT LINE 120")
                                 }
                                 else if(itemsinline3[0] == ''){
                                     itemsinline3[0] = selecteddisc.id
-                                    console.warn("AT LINE 124")
                                 }
 
                             }
@@ -313,15 +282,12 @@
                                 itemsinline2[currentIndex] = ""
                                 if(itemsinline3[2] == ''){
                                     itemsinline3[2] = selecteddisc.id
-                                    console.warn("AT LINE 116")
                                 }
                                 else if(itemsinline3[1] == ''){
                                     itemsinline3[1] = selecteddisc.id
-                                    console.warn("AT LINE 120")
                                 }
                                 else if(itemsinline3[0] == ''){
                                     itemsinline3[0] = selecteddisc.id
-                                    console.warn("AT LINE 124")
                                 }
 
                             }
@@ -343,15 +309,12 @@
                                 itemsinline3[currentIndex] = ""
                                 if(itemsinline3[2] == ''){
                                     itemsinline3[2] = selecteddisc.id
-                                    console.warn("AT LINE 116")
                                 }
                                 else if(itemsinline3[1] == ''){
                                     itemsinline3[1] = selecteddisc.id
-                                    console.warn("AT LINE 120")
                                 }
                                 else if(itemsinline3[0] == ''){
                                     itemsinline3[0] = selecteddisc.id
-                                    console.warn("AT LINE 124")
                                 }
 
                             }
@@ -363,5 +326,4 @@
             }
             }
             winCheck()
-            
         }
